@@ -1,0 +1,7 @@
+image_id,image_path,label,patient_id
+synthetic_image_001,synthetic_case_001/frame_a.png,1,synthetic_patient_001
+synthetic_image_002,synthetic_case_001/frame_b.png,1,synthetic_patient_001
+synthetic_image_003,synthetic_case_002/frame_a.png,0,synthetic_patient_002
+synthetic_image_004,synthetic_case_002/frame_b.png,0,synthetic_patient_002
+synthetic_image_005,synthetic_case_003/frame_a.png,1,synthetic_patient_003
+synthetic_image_006,synthetic_case_003/frame_b.png,0,synthetic_patient_003

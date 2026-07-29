@@ -1,0 +1,3 @@
+image_path,label,patient_id
+synthetic_case_101/frame_a.png,0,synthetic_patient_101
+synthetic_case_102/frame_a.png,0,synthetic_patient_102

@@ -1,0 +1,44 @@
+# Local or derived study data
+data/
+outputs/
+*.ckpt
+*.pt
+*.pth
+*.dcm
+*.nii
+*.nii.gz
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# Local study documents and inventories
+*.docx
+*.xlsx
+*.xlsm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.verify-cache/
+.uv-cache/
+build/
+dist/
+*.egg-info/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

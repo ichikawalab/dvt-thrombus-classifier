@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "DVT Thrombus Classifier"
+message: "If you use this software, please cite this repository."
+type: software
+authors:
+  - name: "Ichikawa Lab"
+repository-code: "https://github.com/ichikawalab/dvt-thrombus-classifier"
+license: MIT
+version: 1.0.0
