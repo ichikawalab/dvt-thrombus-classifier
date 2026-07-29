@@ -1,4 +1,4 @@
-# Defaults for the primary analysis.
+# Default training and evaluation settings.
 #
 # Seeds are shared across architectures, so every model is trained and evaluated
 # on identical splits and comparisons between models are paired.  Changing

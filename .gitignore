@@ -20,6 +20,8 @@ outputs/
 *.docx
 *.xlsx
 *.xlsm
+Revesion1/
+.pptx_build_figure6/
 
 # Python
 __pycache__/
