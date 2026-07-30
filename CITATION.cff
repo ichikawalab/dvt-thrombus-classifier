@@ -3,7 +3,10 @@ title: "DVT Thrombus Classifier"
 message: "If you use this software, please cite this repository."
 type: software
 authors:
-  - name: "Ichikawa Lab"
+  - given-names: "Shota"
+    family-names: "Ichikawa"
+    affiliation: "Department of Radiological Technology, Graduate School of Health Sciences, Niigata University"
+    orcid: "https://orcid.org/0000-0002-4275-1422"
 repository-code: "https://github.com/ichikawalab/dvt-thrombus-classifier"
 license: MIT
 version: 1.0.0
