@@ -10,3 +10,5 @@ authors:
 repository-code: "https://github.com/ichikawalab/dvt-thrombus-classifier"
 license: MIT
 version: 1.0.0
+doi: "10.5281/zenodo.21698661"
+date-released: 2026-07-30
