@@ -1,5 +1,7 @@
 # DVT thrombus classifier
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21698661.svg)](https://doi.org/10.5281/zenodo.21698661)
+
 Deep learning tools for image-level classification of thrombus presence in
 static B-mode lower-extremity venous ultrasound images. The repository supports
 patient-level repeated cross-validation, probability-based ensembles,
