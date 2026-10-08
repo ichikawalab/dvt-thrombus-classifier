@@ -1,6 +1,6 @@
 # DVT thrombus classifier
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21698661.svg)](https://doi.org/10.5281/zenodo.21698661)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21698660.svg)](https://doi.org/10.5281/zenodo.21698660)
 
 Deep learning tools for image-level classification of thrombus presence in
 static B-mode lower-extremity venous ultrasound images. The repository supports
@@ -131,6 +131,22 @@ uv run dvt-stats ^
 ```
 
 Use a new, empty output directory for each report.
+
+Optional discrimination within anatomical subgroups, from the same held-out
+predictions. The local CSV must carry a subgroup column (for example the
+venous segment of each image); `--group NAME=value,value` defines each
+subgroup from that column's values:
+
+```bat
+uv run python scripts\within_segment_auc.py ^
+  --runs outputs\runs ^
+  --input-csv data\input.csv ^
+  --segment-column segment ^
+  --group femoral=CFV,SFV ^
+  --group popliteal=POP ^
+  --group femoral_popliteal=CFV,SFV,POP ^
+  --output outputs\stats\within_segment
+```
 
 Measure model complexity and batch-one inference latency:
 

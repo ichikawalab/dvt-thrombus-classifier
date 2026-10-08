@@ -44,3 +44,9 @@ dist/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# R1 results retained for reference (not part of the public release)
+archive_R1/
+
+# Manuscript revision files (not part of the public release)
+Revision2/

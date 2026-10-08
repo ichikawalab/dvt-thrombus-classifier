@@ -9,6 +9,6 @@ authors:
     orcid: "https://orcid.org/0000-0002-4275-1422"
 repository-code: "https://github.com/ichikawalab/dvt-thrombus-classifier"
 license: MIT
-version: 1.0.0
-doi: "10.5281/zenodo.21698661"
-date-released: 2026-07-30
+version: 1.1.0
+doi: "10.5281/zenodo.21698660"
+date-released: 2026-10-08
