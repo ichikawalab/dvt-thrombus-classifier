@@ -1,6 +1,6 @@
 [project]
 name = "dvt-thrombus-classifier"
-version = "1.0.0"
+version = "1.1.0"
 description = "Deep learning classification of thrombus presence in static B-mode lower-extremity venous ultrasound images, with patient-level repeated cross-validation and probability-based ensembles."
 readme = "README.md"
 requires-python = ">=3.10,<3.13"
